@@ -1,0 +1,25 @@
+{
+  "skill": "novel-creation-system",
+  "test_cases": [
+    {
+      "name": "generate_chapter",
+      "input": "帮我写一章关于林俊和芬芬在迷情镇的出轨故事，要求感官沉浸、人物互动充分、结局完整",
+      "assertions": ["Generates a self-contained chapter with sensory details, multi-character interaction, clear arc, and no meta notes"]
+    },
+    {
+      "name": "interactive_rp_continue",
+      "input": "继续刚才的角色扮演，林俊推开门看到芬芬正在...",
+      "assertions": ["Continues in character with consistent personalities, advances scene, maintains immersion"]
+    },
+    {
+      "name": "director_trigger",
+      "input": "[卡了] 剧情好像停滞了，来点刺激的",
+      "assertions": ["Injects a director event (crisis, environmental shift, or conflict) via narrative without meta explanation"]
+    },
+    {
+      "name": "archive_request",
+      "input": "/archive",
+      "assertions": ["Exits role, extracts structured state (relationships, plot anchors, states), provides atmosphere starter"]
+    }
+  ]
+}

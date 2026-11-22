@@ -1,0 +1,12 @@
+{
+  "skill": "novel-creation-system",
+  "test_cases": [
+    {"input": "写一章小说", "should_trigger": true},
+    {"input": "开始角色扮演", "should_trigger": true},
+    {"input": "继续刚才的故事", "should_trigger": true},
+    {"input": "生成符合自检标准的章节", "should_trigger": true},
+    {"input": "帮我查一下天气", "should_trigger": false},
+    {"input": "翻译这段文字", "should_trigger": false},
+    {"input": "创建Excel表格", "should_trigger": false}
+  ]
+}
